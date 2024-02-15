@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Lora:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Calistoga&display=swap');
+
+body {
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+}
+
+header {
+    background-color: #9e7145;
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+    top:0;
+}
+
+.company-name {
+    float:left;
+    margin: 0 20px;
+    color: rgb(245, 242, 239);
+    font-family: 'Calistoga', serif;
+    text-shadow: 6px 5px 2px black;
+}
+
+
+#navbar {
+    display: flex;
+    justify-content:right;
+    padding: 10px ;
+    height: 100%;
+}
+
+#navbar ul {
+    list-style: none;
+    display: flex;
+}
+
+#navbar ul li {
+    margin: 0 10px;
+}
+
+#navbar ul li a{
+    color: white;
+    text-decoration: none;
+    padding: 5px 10px;
+    transition: color 0.3s ease;
+}
+
+#navbar ul li a:hover {
+    color: #000000;
+}
+
+main {
+    padding-top: 80px;
+    font-family: 'Laco','serif';
+    text-align: justify;
+    font-size: medium;
+    font-weight: 500;
+    line-height: 1.5rem;
+    color: rgb(36, 63, 63);
+    background: linear-gradient(to bottom left, #938459, #ffffff );
+}
+
+p:hover {
+    cursor:text;
+}
+
+#contact p {
+    font-size: 1.1rem;
+}
